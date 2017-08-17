@@ -1,31 +1,45 @@
-/*
 body {
     background-color:#D6DAF0;
     color:#c41e3a ;
     font-family:"Arial";
-    text-transform:uppercase
+    text-transform:uppercase;
 }
+a img { border:none; }
 #potatoRussel {
-    font-size:+48px
+    font-size:+48px;
 }
-*/
-h1{
-    color: 00D5E1;   
+.green:hover{
+    color:forestgreen
 }
-.blue{
-    background: aqua;
+#A:active{
+    background-image: url('Fish.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-bottom: 300px;
+    background-size: contain;
+    background-position: 50% 35px;
 }
-div{
-    width:
-    height:
-    background:
+#B:active{
+    background-image: url('Umaru.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-bottom: 300px;
+    background-size: contain;
+    background-position: 50% 35px;
 }
-.padding{
-    padding:20px;
-    background:green;
-    border:5px solid black;
-    margin: 30px;
+#C:active{
+    background-image: url('Smug.gif');
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-bottom: 400px;
+    background-size: contain;
+    background-position: 50% 35px;
 }
-.green{
-    color: #00FF00;
+.bottom{
+    padding-bottom:10%;
 }
+#image{
+	width:75%;
+}
+.bottom2{
+    padding-bottom:30%;
